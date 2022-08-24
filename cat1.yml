@@ -4,7 +4,7 @@
       path: HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome
       value: SSLVersionMin
       data: 'tls1.2'
-      type: dword
+      type: string 
   when:
       - DTBC-0056
   tags:
